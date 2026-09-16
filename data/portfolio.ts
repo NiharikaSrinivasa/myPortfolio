@@ -1,15 +1,141 @@
-export const profile={name:'Niharika Srinivas',role:'Senior Frontend Engineer',positioning:'React + Full-Stack Developer',location:'Bengaluru, India',email:'niharika.web.dev@gmail.com',github:'https://github.com/NiharikaSrinivasa',linkedin:'https://www.linkedin.com/in/niharika-srinivas-099747149/',medium:'https://medium.com/@monksweb'};
-export const stats=[['6+','Years in web development'],['4','Years TypeScript + React'],['500+','Enterprise users served'],['3','Teams using shared UI library']];
-export const experience=[
-{period:'Aug 2022 — Present',title:'Senior Software Engineer',company:'Yethi Consulting Pvt Ltd',project:'Tenjin Online · Enterprise Test Automation Platform',stack:'TypeScript · Next.js · React · Redux Toolkit · MUI · Storybook · REST APIs',highlights:['Architected scalable React/TypeScript features with strong type safety.','Built typed REST API integration using interfaces and custom hooks.','Developed AI-assisted test case generation, reducing manual effort by ~35%.','Built a shared Storybook component library adopted by 3 teams.','Improved page load times by 40% with lazy loading, code splitting and memoisation.','Led migration from legacy Redux to Redux Toolkit, reducing boilerplate by 60%.']},
-{period:'Aug 2022 — Present',title:'Frontend Engineer',company:'Yethi Consulting Pvt Ltd',project:'Tenjin 4.0–4.5 · Enterprise Test Management Suite',stack:'React · TypeScript · Redux Toolkit · Context API · MUI · Storybook · Docker · Jenkins',highlights:['Built scalable frontend modules serving 500+ enterprise users.','Introduced TypeScript incrementally through shared type libraries.','Designed reusable Storybook components, reducing UI development time by 25%.','Reduced page load times by 30% through code splitting and lazy loading.','Mentored 3 junior developers in TypeScript, architecture and debugging.']},
-{period:'May 2020 — Jul 2022',title:'Web Developer',company:'Scion Social',project:'Client websites & CMS experiences',stack:'HTML · CSS · JavaScript · WordPress',highlights:['Developed and maintained websites for 30+ clients.','Customized themes, plugins and frontend experiences.','Delivered responsive, cross-browser compatible websites.']}
+export const profile = {
+  name: "Niharika Srinivas",
+  role: "Senior Frontend Engineer",
+  positioning: "MERN Stack Developer",
+  location: "Bengaluru, India",
+  email: "niharika.web.dev@gmail.com",
+  github: "https://github.com/NiharikaSrinivasa",
+  linkedin: "https://www.linkedin.com/in/niharika-srinivas-099747149/",
+  medium: "https://medium.com/@monksweb",
+};
+
+export const stats = [
+  ["6+", "Years in web development"],
+  ["4+", "Years with React"],
+  ["2+", "Years with TypeScript"],
+  ["30+", "Client & enterprise projects"],
+
+  // Not currently needed for MERN positioning:
+  // ["500+", "Enterprise users served"],
+  // ["3", "Teams using shared UI library"],
 ];
-export const skills={Frontend:['React','Next.js','TypeScript','JavaScript ES6+','HTML5','CSS3'],State:['Redux Toolkit','Context API','React Hooks','Custom Hooks','TanStack Query'],UI:['Tailwind CSS','Material UI','Storybook','Responsive Design','Accessibility'],Backend:['Node.js','Express.js','REST APIs','Authentication','SQL / MongoDB'],Performance:['Code Splitting','Lazy Loading','Memoisation','SSR / SSG','Bundle Optimization'],Engineering:['Git','GitLab','Docker','Jenkins','Jira','Figma','CI/CD']};
-export const projects=[
-['AI Test Case Generator','AI + Enterprise','AI-assisted test case generation workflow integrated into an enterprise test automation platform.',['React','TypeScript','Next.js','AI workflows'],'~35% less manual effort'],
-['Shared Component Library','Design System','Reusable, documented Storybook component library with typed React props for multiple teams.',['Storybook','TypeScript','React','MUI','Accessibility'],'Adopted by 3 teams'],
-['Tenjin Enterprise Platform','Frontend Architecture','Scalable frontend modules for banking and fintech clients.',['React','TypeScript','Redux Toolkit','Docker','Jenkins'],'500+ users'],
-['AI Knowledge Assistant','Personal project · Sep 2026','Planned full-stack project with document upload, RAG and streaming LLM responses.',['Next.js','TypeScript','Node.js','RAG','LLM'],'Coming soon'],
-['Full-Stack Issue Tracker','Personal project · Sep 2026','Planned Jira-style application demonstrating auth, roles, CRUD, filtering and pagination.',['Next.js','Node.js','Express','PostgreSQL','Auth'],'Coming soon']
+
+export const experience = [
+  {
+    period: "Aug 2022 — Present",
+    title: "Senior Software Engineer",
+    company: "Yethi Consulting Pvt Ltd",
+    project: "Tenjin Online",
+    stack:
+      "React.js · JavaScript ES6+ · TypeScript · Material UI · Storybook · Redux · RESTful APIs · GitLab",
+    highlights: [
+      "Developed scalable and reusable user interfaces using React.js and TypeScript.",
+      "Integrated RESTful APIs using GET, POST, PUT and DELETE methods.",
+      "Managed application state using Redux and React state management patterns.",
+      "Implemented React Router to build and maintain Single Page Application workflows.",
+      "Developed reusable UI components using Material UI and Storybook.",
+      "Worked with AJAX and JSON to fetch and process data from RESTful APIs for dynamic application functionality.",
+    ],
+  },
+
+  {
+    period: "Aug 2022 — Present",
+    title: "Frontend Engineer",
+    company: "Yethi Consulting Pvt Ltd",
+    project: "Tenjin 4.0",
+    stack:
+      "React.js · JavaScript ES6+ · HTML5 · CSS3 · Material UI · Storybook · Context API · RESTful APIs · GitLab · Figma",
+    highlights: [
+      "Developed reusable and scalable React.js components for enterprise applications.",
+      "Built reusable UI components using Material UI and documented them using Storybook.",
+      "Implemented AJAX requests to consume RESTful APIs and efficiently handled JSON responses.",
+      "Developed responsive user interfaces using HTML5, CSS3 and Material UI.",
+      "Used Context API for managing shared application state.",
+      "Collaborated closely with designers using Figma to translate UI mockups into polished user interfaces.",
+    ],
+  },
+
+  {
+    period: "May 2020 — Jul 2022",
+    title: "Web Developer",
+    company: "Scion Social",
+    project: "Client Websites & CMS Experiences",
+    stack: "HTML5 · CSS3 · JavaScript · WordPress",
+    highlights: [
+      "Developed and maintained responsive websites for multiple clients.",
+      "Customized WordPress themes and plugins based on project requirements.",
+      "Built responsive and cross-browser compatible user interfaces.",
+    ],
+  },
+];
+
+export const skills = {
+  Frontend: ["React.js", "TypeScript", "JavaScript ES6+", "HTML5", "CSS3"],
+
+  State: ["Redux", "Context API", "React Hooks", "Custom Hooks"],
+
+  UI: [
+    "Material UI",
+    "Storybook",
+    "Responsive Design",
+    "Figma",
+    "Accessibility",
+  ],
+
+  Backend: ["Node.js", "Express.js", "RESTful APIs", "MongoDB", "Mongoose"],
+
+  Authentication: ["JWT", "Role-Based Access", "API Authentication"],
+
+  Engineering: ["Git", "GitLab", "API Integration", "CRUD", "CI/CD"],
+
+  // Technologies intentionally not highlighted in the current MERN portfolio:
+  // Next.js
+  // PostgreSQL
+  // Docker
+  // Jenkins
+  // LLM APIs
+  // RAG
+};
+
+export const projects = [
+  [
+    "Tenjin Online",
+    "Enterprise Test Automation",
+    "Enterprise test automation platform developed at Yethi Consulting using React.js, JavaScript, Redux and RESTful APIs.",
+    ["React.js", "JavaScript", "Redux", "Material UI", "REST APIs"],
+    "Enterprise React application",
+  ],
+
+  [
+    "Tenjin 4.0",
+    "Enterprise Test Management",
+    "Enterprise test management application developed using React.js with reusable components, Context API, RESTful APIs, Material UI and Storybook.",
+    ["React.js", "JavaScript ES6+", "Context API", "Material UI", "Storybook"],
+    "Reusable enterprise UI architecture",
+  ],
+
+  [
+    "MERN Issue Tracker",
+    "Full-Stack Personal Project",
+    "Full-stack issue tracking application demonstrating authentication, CRUD operations, role-based access, filtering and pagination.",
+    ["React", "TypeScript", "Node.js", "Express.js", "MongoDB"],
+    "MERN + TypeScript",
+  ],
+
+  [
+    "MERN Task Management App",
+    "Full-Stack Personal Project",
+    "Task management application demonstrating REST API integration, authentication, CRUD operations and MongoDB data management.",
+    ["React", "TypeScript", "Node.js", "Express.js", "MongoDB"],
+    "MERN + TypeScript",
+  ],
+
+  // Add your next personal project here:
+  // [
+  //   "Project Name",
+  //   "Category",
+  //   "Project description.",
+  //   ["React", "TypeScript", "Node.js", "Express.js", "MongoDB"],
+  //   "MERN + TypeScript",
+  // ],
 ];
